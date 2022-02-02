@@ -1,3 +1,9 @@
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+  
+
 [build]
 command = 'hugo'
 publish = 'public'
@@ -15,8 +21,3 @@ command = 'hugo -F -b $DEPLOY_PRIME_URL'
 [context.production]
 [context.production.environment]
 HUGO_ENV = 'production'
-
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
