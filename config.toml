@@ -1,4 +1,4 @@
-baseURL = "https://ibratss.netlify.app" # DCI: after deployment
+baseURL = "https://websitedraft.netlify.app/" # DCI: after deployment
 theme = "hugo-apero"
 languageCode = "en"
 title = "IbraTSS"
