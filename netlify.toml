@@ -17,3 +17,9 @@ command = 'hugo -F -b $DEPLOY_PRIME_URL'
 HUGO_VERSION = '0.90.1'
 HUGO_ENV = 'production'
 
+[context.branch-deploy.environment]
+  HUGO_VERSION = "0.90.1" # if older, use format: 0.53 (no trailing zero)
+
+[context.deploy-preview.environment]
+  HUGO_VERSION = "0.90.1"
+
